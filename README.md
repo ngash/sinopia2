@@ -8,6 +8,42 @@ It allows you to have a local npm registry with zero configuration. You don't ha
 
 <p align="center"><img src="https://f.cloud.github.com/assets/999113/1795553/680177b2-6a1d-11e3-82e1-02193aa4e32e.png"></p>
 
+## About this fork
+First, thanks @rlidwka for this great software.
+
+It is not intended to become the 'official' fork. In fact there are other forks (for example @mathieumg or @ngash) quite active too.
+
+Out fork is internally used at my company, therefore we are going to maintain it in the future.
+
+In this fork I have already merged some relevant PRs:
+ * Split travis file in install & script 
+ * Update README to use fl4re travis badge 
+ * Travis fix
+ * Change _npmUser.name to author.name for entries #352
+ * Update deps, make compile on Node v4 & 5 #367
+ * ADDED intermediate ssl certificate option #379
+ * Package search requires 'access' authorization #370
+
+And we have a branch (OAuth_login) that replaces completely the registration/login workflow by Github/Google Oauth instead of plain and open user password.
+Beside this branch, I plan to maintain the master branch as close as possible to the original sinopia.
+
+If anyone in the community considers our fork a good fork, I will be glad to accept PR.
+
+PRs will be accepted if:
+ * fixes some bug
+ * fixes random travis failures
+ * fixes jslint/jshint styling
+ * removes dead code
+ * replaces some old library by a newer one
+ * refactors
+ * add a feature and there is consensus about it (a few +1)
+
+PRs will not be accepted if:
+ * modifies the original features
+ * adds features only needed by some individual
+ * brakes the travis build
+
+
 ## Use cases
 
 1. Use private packages.
