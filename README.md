@@ -1,4 +1,4 @@
-`sinopia` - a private/caching npm repository server
+`sinopia2` - a private/caching npm repository server
 
 [![npm version badge](https://img.shields.io/npm/v/sinopia2.svg)](https://www.npmjs.org/package/sinopia2)
 [![Build Status](https://travis-ci.org/fl4re/sinopia.svg?branch=master)](https://travis-ci.org/fl4re/sinopia)
@@ -70,7 +70,7 @@ PRs will not be accepted if:
 ```bash
 # installation and starting (application will create default
 # config in config.yaml you can edit later)
-$ npm install -g sinopia
+$ npm install -g sinopia2
 $ sinopia
 
 # npm configuration
